@@ -27,7 +27,6 @@ return (
                     <SearchIcon/>
                     search
                      </div>
-                    
                     </button>
                 </div>
             </header>
