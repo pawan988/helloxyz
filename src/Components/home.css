@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wraper{
+   background-color: rgb(23, 28, 41);
+    padding: 10px;
+    width: 99%;
+    height: 70vh;
+   
+   
+}
+.twitter-star-blog{
+    color: white;
+   width: 40%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px 0px 0px;
+}
+.twitter-blog{
+    color: white;
+     width: 30%;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(61, 130, 242) ;
+    margin: 0px 0px 0px 170px;
+    border-radius: 5px;
+    font-size: small;
+}
+.twitter-blog:hover{
+    background-color: rgb(43, 96, 181);
+}
+.star-blog{
+    color: black;
+     width: 10%;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 170px 0px 0px;
+    
+}
+.star-blog:hover{
+    background-color: gainsboro;
+}
+.center-div{
+    width: 60%;
+    height: 30vh;
+    color: white;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    float: left;
+    margin: 0px 150px 0px 300px;
+
+}
+
+.center-right{
+    width: 20%;
+    height: 35vh;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 0px 130px;
+    border-radius: 10px;
+    position: relative;
+}
+img{
+    width: 160px;
+    height: 160px;
+}
+.react-para{
+    color: rgb(116, 210, 227);
+    font-size: 80px;
+}
+.underline{
+    margin-top: 200px;
+    position: absolute;
+   }
+   .line{
+       width: 40px;
+       height: 20px;
+   }
+.button1{
+background-color: rgb(48, 186, 184);
+width: 160px;
+height: 8vh;
+border-radius: none;
+font-size: 20px;
+color: rgb(74, 79, 79) ;
+
+}   
+.button2{
+    color:rgb(116, 210, 227);
+    background-color:rgb(23, 28, 41);
+    font-size: 15px;
+}
+.button2:hover{
+    background-color:rgb(23, 28, 41);
+    border: none;
+    outline: none;
+    color: white;
+}
+.second_wraper{
+ 
+ width: 100%;
+ height: 90%;
+ background-color: white;
+margin-top: 513px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.second_left{
+width: 200px;
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px 120px 0px 0px;
+}
+.second_right{
+width: 400px;
+height: 40vh;
+margin: 0px 0px 60px 60px;
+}
+.second_blog_para1{
+margin: 10px 0px 0px 0px;
+line-height: 25px;
+       
+}
+.second_blog_para2{
+margin: 10px 0px 0px 0px;
+line-height: 25px;
+}
+.mobo_pic{
+width: 600px;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.third-wrapper{
+width: 100%;
+height: 60%;
+position: absolute;
+background-color: grey;
+margin: 310px 0px 0px 0px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.third-left{
+width: 100%;
+height: 58vh;
+background-color: rgb(230, 232, 232);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.third-right{
+    width: 100%;
+    height: 58vh;
+    background-color: rgb(23, 28, 41);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.text-blog{
+    width: 50%;
+    height: 40vh;
+    margin: 0px 0px 0px 220px;
+}
+.third-para1{
+    margin: 10px 0px 0px 0px;
+line-height: 25px;
+}
+.third-para2{
+    margin:10px 0px 0px 0px;
+    line-height: 25px;
+}

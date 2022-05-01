@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbAr{
+    border: 1px solid black;
+    height: 8vh;
+    width: 100%;
+    float: right;
+    background-color: black;
+    position: fixed;
+    z-index: 5;
+}
+.navbar_link{
+    height: 3vh;
+    width: 35%;
+    float: right;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .link{
+        color: white;
+        outline: none;
+        text-decoration-line: none;
+    }
+     .link:hover{
+        text-decoration-line: underline;
+        color: skyblue;
+    } 
+    .link:active{
+        text-decoration-line: underline ;
+        color: greenyellow;
+    }
+    .logo-wraper{
+       
+        width: 20%;
+        height: 50px;
+        float: left;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+       
+}
+.image{
+    width: 40px;
+    height: 40px;
+    margin: 0px 0px 0px 60px;
+}
+.para1{
+    padding: 0px 0px 0px 10px;
+}
+.para1:hover{
+    color: skyblue;
+}
+.version{
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: row;
+}
+.Search{
+    border: 1px solid red;
+    width: 50px;
+    height: 20px;
+    float: right;
+}
+button{
+    background-color: rgb(209, 216, 230);
+    height: 30px;
+    width: 120px;
+    outline: none;
+    border: none;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
+}
+button:hover{
+    border: 3px solid skyblue;
+    background-color: white;
+}
+.serachicon{
+    float: left;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.github-icon{
+    color:  white;
+}
+    
